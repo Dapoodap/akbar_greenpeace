@@ -12,7 +12,8 @@ document.getElementById('regis_form').addEventListener('submit',(e)=>{
         fetch(key, {
             method : "POST",
             body : JSON.stringify(data),
-            headers : {"content-type":"application/json"}
+            headers : {"content-type":"application/json"},
+            
         })
         // .then((res)=>{
         //     return res.json()
